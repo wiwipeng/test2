@@ -4,7 +4,6 @@ gas = st.number_input('油量的資料收集:油箱滿是10格 =>')
 speed= st.number_input('車速的資料收集:限速100 =>')
 temp = st.number_input('溫度的資料收集:限溫30 =>')
 tur=int(input('轉速資料的收集:限轉12000 =>'))
-import streamlit as st
 if cofirm_input:
       st.write('第六組')
    if gas <= car_simulation.get('gas_warning'):
