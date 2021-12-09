@@ -6,6 +6,7 @@ temp = st.number_input('溫度的資料收集:限溫30 =>')
 tur= st.number_input('轉速資料的收集:限轉12000 =>')
 cofirm_input = st.button('輸入確認')
 if cofirm_input:
+   st.write('第六組')
    if gas <= car_simulation.get('gas_warning'):
       st.write('油箱只剩', gas, '格! 準備加油!!')
    else:
