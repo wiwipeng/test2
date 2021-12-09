@@ -1,5 +1,5 @@
 import streamlit as st
-st.title('第六組')
+st.title('第六組 刷牙卡到陰')
 car_simulation = {'gas_warning':1, 'speed_limit':100, 'temp_warning':30, 'turn':12000}
 gas = st.number_input('油量的資料收集:油箱滿是10格 =>')
 speed= st.number_input('車速的資料收集:限速100 =>')
